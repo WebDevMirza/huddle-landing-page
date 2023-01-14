@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+:root {
+  /*  ===============================
+      Colors
+      ===============================   */
+  --bg-Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+
+  /* ===============================
+     Fonts
+     ===============================  */
+
+  --ff-OpenSans: "Open Sans", sans-serif;
+  --ff-Poppins: "Poppins", sans-serif;
+  --fs-fontsize: 1rem;
+  --fw-400: 400;
+  --fw-600: 600;
+  --line-height: 1.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ==============================
+   Body
+   ==============================  */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  font-family: var(--ff-Poppins);
+  font-size: var(--fs-fontsize);
+  font-weight: var(--fw-400);
+  line-height: var(--line-height);
   color: white;
+  letter-spacing: 0.6px;
+  line-height: var(--line-height);
+  background: url(./images/bg-mobile.svg) no-repeat var(--bg-Violet);
+  background-size: contain;
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 1024px) {
+  body {
+    background: url(./images/bg-desktop.svg) no-repeat var(--bg-Violet);
+    background-size: cover;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* ==============================
+Layout
+============================== */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+@media (min-width: 1024px) {
+  main {
+    padding: 1rem 5rem;
   }
 }
+
+/* ================================
+   Typography
+   ================================ */
