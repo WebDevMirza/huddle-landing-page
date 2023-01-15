@@ -1,15 +1,29 @@
 import "./Footer.css";
-import IcoFacebook from "../images/logo-facebook.svg";
-import IcoTwitter from "../images/logo-twitter.svg";
-import IcoInstagram from "../images/logo-instagram.svg";
+import IcoFacebook from "../images/facebook-f.svg";
+import IcoTwitter from "../images/twitter.svg";
+import IcoInstagram from "../images/instagram.svg";
 
 const Footer = () => {
   return (
     <>
-      <div className="footer">
-        <img src={IcoFacebook} alt="" width={50} height={50} />
-        <img src={IcoTwitter} alt="" width={50} height={50} />
-        <img src={IcoInstagram} alt="" width={50} height={50} />
+      <div>
+        <ul className="footer">
+          <li>
+            <a href="#">
+              <img src={IcoFacebook} alt="" width={50} height={50} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={IcoTwitter} alt="" width={50} height={50} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={IcoInstagram} alt="" width={50} height={50} />
+            </a>
+          </li>
+        </ul>
       </div>
     </>
   );
