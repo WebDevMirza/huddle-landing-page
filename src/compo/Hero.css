@@ -23,8 +23,17 @@
 .btn {
   display: inline-block;
   background-color: white;
+  color: var(--bg-Violet);
+  font-size: 1.125rem;
   padding: 1rem 5rem;
   border-radius: 3rem;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--SoftMagenta);
+  color: white;
+  transition: 0.35s all ease-in-out;
 }
 
 @media (min-width: 1024px) {
