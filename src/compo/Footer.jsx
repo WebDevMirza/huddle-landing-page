@@ -10,12 +10,12 @@ const Footer = () => {
         <ul className="footer">
           <li>
             <a href="#">
-              <img src={IcoFacebook} alt="" width={50} height={50} />
+              <img src={IcoFacebook} role={"presentation"} width={50} height={50} />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={IcoTwitter} alt="" width={50} height={50} />
+              <img src={IcoTwitter} role={"presentation"} width={50} height={50} />
             </a>
           </li>
           <li>
