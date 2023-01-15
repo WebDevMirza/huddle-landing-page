@@ -20,7 +20,7 @@ const Footer = () => {
           </li>
           <li>
             <a href="#">
-              <img src={IcoInstagram} alt="" width={50} height={50} />
+              <img src={IcoInstagram} role={"presentation"} width={50} height={50} />
             </a>
           </li>
         </ul>
