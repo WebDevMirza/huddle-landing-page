@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/huddle-landing-page/static/css/main.90b458c3.css",
+    "main.js": "/huddle-landing-page/static/js/main.7e7d9546.js",
+    "static/js/787.59c7ef3a.chunk.js": "/huddle-landing-page/static/js/787.59c7ef3a.chunk.js",
+    "static/media/illustration-mockups.svg": "/huddle-landing-page/static/media/illustration-mockups.264994a533e88e58ad2a10b6ae6856e0.svg",
+    "static/media/logo.svg": "/huddle-landing-page/static/media/logo.2b3c07e4842b59538e846f54ed4b3891.svg",
+    "static/media/bg-desktop.svg": "/huddle-landing-page/static/media/bg-desktop.6824779f0b32ead7a24a.svg",
+    "static/media/bg-mobile.svg": "/huddle-landing-page/static/media/bg-mobile.41ba0830da0732cda559.svg",
+    "static/media/instagram.svg": "/huddle-landing-page/static/media/instagram.c2056460bbbf6c051f72df6d7c2fa6dc.svg",
+    "static/media/twitter.svg": "/huddle-landing-page/static/media/twitter.24b5e33e4a893814f68bccd04edbb97f.svg",
+    "index.html": "/huddle-landing-page/index.html",
+    "static/media/facebook-f.svg": "/huddle-landing-page/static/media/facebook-f.8e47c916446c95cbcf1d5b933be6d9d1.svg",
+    "main.90b458c3.css.map": "/huddle-landing-page/static/css/main.90b458c3.css.map",
+    "main.7e7d9546.js.map": "/huddle-landing-page/static/js/main.7e7d9546.js.map",
+    "787.59c7ef3a.chunk.js.map": "/huddle-landing-page/static/js/787.59c7ef3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90b458c3.css",
+    "static/js/main.7e7d9546.js"
+  ]
+}
