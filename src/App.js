@@ -5,13 +5,11 @@ import Hero from "./compo/Hero";
 
 function App() {
   return (
-    <main>
-      <div>
-        <Header />
-        <Hero />
-        <Footer />
-      </div>
-    </main>
+    <>
+      <Header />
+      <Hero />
+      <Footer />
+    </>
   );
 }
 

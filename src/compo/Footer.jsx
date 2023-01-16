@@ -6,25 +6,25 @@ import IcoInstagram from "../images/instagram.svg";
 const Footer = () => {
   return (
     <>
-      <div>
+      <footer>
         <ul className="footer">
           <li>
             <a href="#">
-              <img src={IcoFacebook} role={"presentation"} width={50} height={50} />
+              <img src={IcoFacebook} alt="Facebook" width={50} height={50} />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={IcoTwitter} role={"presentation"} width={50} height={50} />
+              <img src={IcoTwitter} alt="Twitter" width={50} height={50} />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={IcoInstagram} role={"presentation"} width={50} height={50} />
+              <img src={IcoInstagram} alt="Instagram" width={50} height={50} />
             </a>
           </li>
         </ul>
-      </div>
+      </footer>
     </>
   );
 };

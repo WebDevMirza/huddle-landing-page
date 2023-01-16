@@ -4,7 +4,7 @@ import HeroImg from "../images/illustration-mockups.svg";
 const Hero = () => {
   return (
     <>
-      <div className="container">
+      <main className="container">
         <div className="hero">
           <div className="hero-img">
             <img src={HeroImg} alt="hero image" />
@@ -20,7 +20,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </div>
+      </main>
     </>
   );
 };
